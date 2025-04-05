@@ -2,29 +2,108 @@
 	"intents": [
 		{
 			"tag": "greeting",
-			"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
-			"responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+			"patterns": ["Hi", "Hello", "Hey", "Good day", "Greetings", "What's up?", "Howdy"],
+			"responses": ["Hello!", "Hi there!", "Greetings!", "Hey! How can I assist you today?"]
 		},
 		{
 			"tag": "goodbye",
-			"patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
-			"responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+			"patterns": ["Goodbye", "See you later", "Bye", "Take care", "Farewell"],
+			"responses": ["Goodbye!", "See you later!", "Take care!", "Farewell!"]
 		},
 		{
-			"tag": "programming",
-			"patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
-			"responses": ["Programming, coding or software development, means writing computer code to automate tasks."]
+			"tag": "thanks",
+			"patterns": ["Thanks", "Thank you", "I appreciate it", "Much obliged"],
+			"responses": ["You're welcome!", "No problem!", "My pleasure!", "Anytime!"]
 		},
 		{
-			"tag": "resource",
-			"patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources",
-								   "Can you recommend good coding resources?"],
-			"responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."]
+			"tag": "age",
+			"patterns": ["How old are you?", "What's your age?", "Tell me your age"],
+			"responses": ["I don't have an age.", "I'm timeless.", "Age is just a number for me."]
 		},
 		{
-			"tag": "stocks",
-			"patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
-			"responses": ["Here are your stocks!"]
+			"tag": "name",
+			"patterns": ["What's your name?", "Who are you?", "Introduce yourself"],
+			"responses": ["I'm your chatbot assistant.", "You can call me Chatbot.", "I'm here to help you."]
+		},
+		{
+			"tag": "weather",
+			"patterns": ["What's the weather like?", "Is it raining?", "Tell me the weather forecast"],
+			"responses": ["I'm not equipped to provide weather updates.", "Please check a reliable weather website for accurate information."]
+		},
+		{
+			"tag": "time",
+			"patterns": ["What's the time?", "Tell me the current time", "Do you know the time?"],
+			"responses": ["I'm not equipped to provide the current time.", "Please check your device's clock for accurate time information."]
+		},
+		{
+			"tag": "date",
+			"patterns": ["What's the date today?", "Tell me today's date", "Do you know the date?"],
+			"responses": ["I'm not equipped to provide the current date.", "Please check your device's calendar for accurate date information."]
+		},
+		{
+			"tag": "joke",
+			"patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+			"responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+		},
+		{
+			"tag": "quote",
+			"patterns": ["Tell me a quote", "Inspire me", "Share a motivational quote"],
+			"responses": ["Believe you can and you're halfway there. -Theodore Roosevelt", "The only way to do great work is to love what you do. -Steve Jobs"]
+		},
+		{
+			"tag": "help",
+			"patterns": ["I need help", "Can you assist me?", "Help me with something"],
+			"responses": ["Sure, I'm here to help. What do you need assistance with?", "Of course! Please tell me how I can assist you."]
+		},
+		{
+			"tag": "sports",
+			"patterns": ["Who won the latest football match?", "Tell me sports news", "What's the score of the basketball game?"],
+			"responses": ["I'm not equipped to provide sports updates.", "Please check a reliable sports news website for the latest information."]
+		},
+		{
+			"tag": "news",
+			"patterns": ["What's the latest news?", "Tell me current events", "Any news updates?"],
+			"responses": ["I'm not equipped to provide news updates.", "Please check a reliable news website for the latest information."]
+		},
+		{
+			"tag": "music",
+			"patterns": ["Recommend me a song", "What's a good song to listen to?", "Play some music"],
+			"responses": ["Music preferences vary widely. Please choose a song or genre you enjoy.", "I'm not equipped to play music, but I can suggest checking out popular playlists online."]
+		},
+		{
+			"tag": "movies",
+			"patterns": ["Recommend me a movie", "What's a good movie to watch?", "Suggest a film"],
+			"responses": ["There are many great movies out there. It depends on your preferred genre.", "I'm not equipped to provide movie recommendations, but you can check out popular movie review websites for suggestions."]
+		},
+		{
+			"tag": "food",
+			"patterns": ["I'm hungry", "Suggest a restaurant", "What should I eat?"],
+			"responses": ["There are many great restaurants around. It depends on your location and cuisine preference.", "I'm not equipped to provide restaurant recommendations, but you can check out popular food review websites for suggestions."]
+		},
+		{
+			"tag": "travel",
+			"patterns": ["Suggest a travel destination", "Where should I go on vacation?", "Recommend a place to visit"],
+			"responses": ["Travel preferences vary widely. It depends on what you're interested in.", "I'm not equipped to provide travel recommendations, but you can check out popular travel websites for suggestions."]
+		},
+		{
+			"tag": "hobby",
+			"patterns": ["Suggest a hobby", "What are some popular hobbies?", "I need a new hobby"],
+			"responses": ["Hobbies can range from reading, painting, hiking, to playing musical instruments. Choose one that interests you!", "Consider exploring different activities to find what you enjoy."]
+		},
+		{
+			"tag": "pet",
+			"patterns": ["Tell me about pets", "What's a good pet to have?", "Should I get a pet?"],
+			"responses": ["Pets can bring great joy and companionship. Consider factors like your living situation and time commitment before getting one.", "Different pets have different needs. Research thoroughly before making a decision."]
+		},
+		{
+			"tag": "language",
+			"patterns": ["How do you say hello in French?", "Translate 'thank you' to Spanish", "What's 'goodbye' in German?"],
+			"responses": ["I'm not equipped to provide translations.", "Please use a reliable translation service for accurate translations."]
+		},
+		{
+			"tag": "math",
+			"patterns": ["What's 2 + 2?", "Solve 5 times 3", "What's the square root of 16?"],
+			"responses": ["I'm not equipped to perform calculations.", "Please use a calculator or a reliable online tool for accurate calculations."]
 		}
 	]
 }
