@@ -1,6 +1,3 @@
-import sys
-print("Running from:", sys.executable)
-
 import os 
 import json
 import random
@@ -57,5 +54,5 @@ class ChatbotAssistant:
         return words
 
 chatbot = ChatbotAssistant('intents.josn')
-print(chatbot.tokenize_and_lemmaize('Hello world how are you, I am progeamming in python today'))
+print(chatbot.tokenize_and_lemmaize('run running runs ran'))
 
