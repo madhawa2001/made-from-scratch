@@ -64,7 +64,7 @@ The chatbot uses basic NLP techniques to process user inputs and generate approp
 - Input validation and error handling
 
 <div align="center">
-  <a href="./AI Chatbot using python from scratch
+  <a href=".AI Chatbot using python from scratch">
     <img src="https://img.shields.io/badge/View%20Code-00B0FF?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </div>
