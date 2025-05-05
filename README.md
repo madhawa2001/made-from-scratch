@@ -64,7 +64,7 @@ The chatbot uses basic NLP techniques to process user inputs and generate approp
 - Input validation and error handling
 
 <div align="center">
-  <a href="AI Chatbot using python from scratch">
+  <a href="./basic_chatbot_from_scratch.py">
     <img src="https://img.shields.io/badge/View%20Code-00B0FF?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </div>
@@ -80,7 +80,7 @@ The chatbot uses basic NLP techniques to process user inputs and generate approp
   <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 </div>
 
-An implementation of the YOLOv1 (You Only Look Once) object detection algorithm, built from scratch to understand the mechanics of single-shot object detection.
+An implementation of the YOLOv1 (You Only Look Once) object detection algorithm, built from scratch to understand the mechanics of single-shot object detection. Based on the paper "You Only Look Once: Unified, Real-Time Object Detection" by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
 
 ### ✨ Features
 
@@ -92,7 +92,9 @@ An implementation of the YOLOv1 (You Only Look Once) object detection algorithm,
 
 ### 📝 Implementation Details
 
-This project recreates the YOLOv1 architecture from the ground up, focusing on:
+This project recreates the YOLOv1 architecture from the ground up, following the original paper [You Only Look Once: Unified, Real-Time Object Detection](http://pjreddie.com/yolo/) by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi (University of Washington, Allen Institute for AI, Facebook AI Research).
+
+The implementation focuses on:
 
 - Grid-based detection system
 - Loss function implementation
@@ -124,6 +126,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Madhawa - [@Madhawa2001](https://github.com/Madhawa2001)
 
-Project Link: [https://github.com/Madhawa2001/made-from-scratch](https://github.com/Madhawa2001/made-from-scratch)
+Project Link: [https://github.com/username/made-from-scratch](https://github.com/username/made-from-scratch)
