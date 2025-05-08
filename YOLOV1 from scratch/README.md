@@ -4,14 +4,7 @@ YOLOv1 uses a custom loss function that balances localization, confidence, and c
 
 ### 🔸 Full Loss Function
 
-Total Loss =  
-λ_coord * Σᵢ=0ˢ² Σⱼ=0ᴮ 𝟙ᵢⱼ^obj * [ (xᵢ - x̂ᵢ)² + (yᵢ - ŷᵢ)² ]  
-+ λ_coord * Σᵢ=0ˢ² Σⱼ=0ᴮ 𝟙ᵢⱼ^obj * [ (√wᵢ - √ŵᵢ)² + (√hᵢ - √ĥᵢ)² ]  
-+ Σᵢ=0ˢ² Σⱼ=0ᴮ 𝟙ᵢⱼ^obj * (Cᵢ - Ĉᵢ)²  
-+ λ_noobj * Σᵢ=0ˢ² Σⱼ=0ᴮ 𝟙ᵢⱼ^noobj * (Cᵢ - Ĉᵢ)²  
-+ Σᵢ=0ˢ² 𝟙ᵢ^obj * Σ over all classes (pᵢ(c) - p̂ᵢ(c))²
-
----
+L = λcoord∑S²i=0∑Bj=0 ✶ᵒᵇʲᵢⱼ[(xᵢ - x̂ᵢ)² + (yᵢ - ŷᵢ)²] + λcoord∑S²i=0∑Bj=0 ✶ᵒᵇʲᵢⱼ[(√wᵢ - √ŵᵢ)² + (√hᵢ - √ĥᵢ)²]+ ∑S²i=0∑Bj=0 ✶ᵒᵇʲᵢⱼ(Cᵢ - Ĉᵢ)  + λnoobj∑S²i=0∑Bj=0 ✶ⁿᵒᵒᵇʲᵢⱼ(Cᵢ - Ĉᵢ)²  +  ∑S²i=0 ✶ᵒᵇʲᵢ ∑c∈classes(pᵢ(c) - p̂ᵢ(c))²
 
 ### 🔍 Explanation of Each Term
 
