@@ -92,7 +92,7 @@ An implementation of the YOLOv1 (You Only Look Once) object detection algorithm,
 
 ### 📝 Implementation Details
 
-![YOLOv1 Architecture](./assets/yolo_architecture.png)
+![YOLOv1 Architecture](./assets/yolo_1.PNG)
 
 This project recreates the YOLOv1 architecture from the ground up, following the original paper [You Only Look Once: Unified, Real-Time Object Detection](http://pjreddie.com/yolo/) by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi (University of Washington, Allen Institute for AI, Facebook AI Research).
 
