@@ -60,7 +60,7 @@ A simple chatbot implementation built from the ground up to understand the funda
 - ✅ Simple conversation memory
 
 <div align="center">
-  <a href="./basic_chatbot_from_scratch.py">
+  <a href="AI Chatbot using python from scratch">
     <img src="https://img.shields.io/badge/View%20Code-00B0FF?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </div>
@@ -87,7 +87,7 @@ An implementation of the YOLOv1 (You Only Look Once) object detection algorithm,
 - ✅ Training and inference pipelines
 
 <div align="center">
-  <a href="./yolov1_from_scratch.py">
+  <a href="YOLOV1 from scratch">
     <img src="https://img.shields.io/badge/View%20Code-00B0FF?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </div>
@@ -119,7 +119,7 @@ This project is dedicated to building classic machine learning models **without 
 - 📊 Evaluation framework using accuracy, classification report, and confusion matrix
 
 <div align="center">
-  <a href="./ml_models_from_scratch/">
+  <a href="ML Models from scratch">
     <img src="https://img.shields.io/badge/View%20Code-00B0FF?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </div>
