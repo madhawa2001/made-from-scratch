@@ -27,7 +27,6 @@ class Logistic_Regression():
 
             # Check for convergence
             if abs(prev_loss - current_loss) < self.tolerance:
-                print(f"Converged after {i} iterations")
                 break
 
             prev_loss = current_loss
@@ -49,3 +48,35 @@ class Logistic_Regression():
 
     def sigmoid(self, x):
         return 1 / (1 + np.exp(-x))
+
+
+class MulticlassLogisticRegression:
+    def __init__(self, lr=0.001, n_iters=1000, tolerance=1e-6):
+        self.lr = lr
+        self.n_iters = n_iters
+        self.tolerance = tolerance
+        self.classes_ = None
+        self.models = {}
+
+    def fit(self, X, y):
+        self.classes_ = np.unique(y)
+        for cls in self.classes_:
+            print(f"Training classifier for class {cls} vs rest")
+            y_binary = (y == cls).astype(int)
+            model = Logistic_Regression(
+                lr=self.lr,
+                n_iters=self.n_iters,
+                tolerance=self.tolerance
+            )
+            model.fit(X, y_binary)
+            self.models[cls] = model
+
+    def predict(self, X):
+        probs = np.zeros((X.shape[0], len(self.classes_)))
+
+        for idx, cls in enumerate(self.classes_):
+            model = self.models[cls]
+            linear_output = np.dot(X, model.weights) + model.bias
+            probs[:, idx] = model.sigmoid(linear_output)
+
+        return self.classes_[np.argmax(probs, axis=1)]
