@@ -33,6 +33,11 @@ This repository contains implementations of various algorithms, models, and syst
     <td>Implementation of the YOLOv1 (You Only Look Once) object detection algorithm with custom neural network architecture</td>
     <td align="center"><a href="#yolov1">Details</a></td>
   </tr>
+  <tr>
+    <td align="center"><b>🤖 ML Models</b></td>
+    <td>Core machine learning models (e.g., KNN, linear regression) implemented using only NumPy and standard Python libraries</td>
+    <td align="center"><a href="#ml-models-from-scratch">Details</a></td>
+  </tr>
 </table>
 
 ---
@@ -54,17 +59,8 @@ A simple chatbot implementation built from the ground up to understand the funda
 - ✅ Basic context awareness
 - ✅ Simple conversation memory
 
-### 📝 Implementation Details
-
-The chatbot uses basic NLP techniques to process user inputs and generate appropriate responses without relying on external libraries. This demonstrates core concepts like:
-
-- String manipulation and pattern recognition
-- State management for conversation context
-- Response generation algorithms
-- Input validation and error handling
-
 <div align="center">
-  <a href="./basic_chatbot_from_scratch.py">
+  <a href="AI Chatbot using python from scratch">
     <img src="https://img.shields.io/badge/View%20Code-00B0FF?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </div>
@@ -80,7 +76,7 @@ The chatbot uses basic NLP techniques to process user inputs and generate approp
   <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 </div>
 
-An implementation of the YOLOv1 (You Only Look Once) object detection algorithm, built from scratch to understand the mechanics of single-shot object detection. Based on the paper "You Only Look Once: Unified, Real-Time Object Detection" by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+An implementation of the YOLOv1 (You Only Look Once) object detection algorithm, built from scratch to understand the mechanics of single-shot object detection.
 
 ### ✨ Features
 
@@ -90,22 +86,40 @@ An implementation of the YOLOv1 (You Only Look Once) object detection algorithm,
 - ✅ Non-max suppression
 - ✅ Training and inference pipelines
 
-### 📝 Implementation Details
+<div align="center">
+  <a href="YOLOV1 from scratch">
+    <img src="https://img.shields.io/badge/View%20Code-00B0FF?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</div>
 
-![YOLOv1 Architecture](./assets/yolo_1.PNG)
+---
 
-This project recreates the YOLOv1 architecture from the ground up, following the original paper [You Only Look Once: Unified, Real-Time Object Detection](http://pjreddie.com/yolo/) by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi (University of Washington, Allen Institute for AI, Facebook AI Research).
-
-The implementation focuses on:
-
-- Grid-based detection system
-- Loss function implementation
-- Intersection over Union (IoU) calculations
-- Forward and backward propagation
-- Model evaluation metrics
+<a name="ml-models-from-scratch"></a>
+## 🤖 ML Models from Scratch
 
 <div align="center">
-  <a href="./yolov1_from_scratch.py">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Machine%20Learning-0A192F?style=for-the-badge&logo=scikit-learn&logoColor=white">
+</div>
+
+This project is dedicated to building classic machine learning models **without using libraries like scikit-learn or TensorFlow** — only NumPy and core Python.
+
+### ✨ Models (Work in Progress)
+
+- ✅ K-Nearest Neighbors (KNN)
+- ⏳ Linear Regression
+- ⏳ Logistic Regression
+- ⏳ Decision Tree
+- ⏳ Support Vector Machine (SVM)
+
+### 🛠️ Tools
+
+- 📂 `.py` files for core model logic
+- 📓 `test.ipynb` for experimenting with sklearn datasets like `Iris`, `Digits`, etc.
+- 📊 Evaluation framework using accuracy, classification report, and confusion matrix
+
+<div align="center">
+  <a href="ML Models from scratch">
     <img src="https://img.shields.io/badge/View%20Code-00B0FF?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </div>
